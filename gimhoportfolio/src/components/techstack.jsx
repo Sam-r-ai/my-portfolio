@@ -1,17 +1,23 @@
 "use client";
 import { useEffect, useRef } from "react";
-import { FaReact, FaDocker, FaJs } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiPython, SiC, SiCplusplus } from "react-icons/si";
+import { FaReact, FaDocker, FaPython, FaJs, FaGithub, FaJava } from "react-icons/fa";
+import { SiFirebase, SiGooglecloud, SiMysql, SiNextdotjs, SiFlutter, SiTailwindcss, SiPython, SiC, SiCplusplus } from "react-icons/si";
 
 const techStack = [
   { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-5xl" /> },
   { name: "React", icon: <FaReact className="text-blue-500 text-5xl" /> },
   { name: "Next.js", icon: <SiNextdotjs className="text-black text-5xl" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400 text-5xl" /> },
+  { name: "Flutter", icon: <SiFlutter className="text-blue-400 text-5xl" /> },
   { name: "Docker", icon: <FaDocker className="text-blue-600 text-5xl" /> },
   { name: "Python", icon: <SiPython className="text-yellow-400 text-5xl" /> },
+  { name: "Java", icon: <FaJava className="text-red-600 text-5xl" /> },
   { name: "C", icon: <SiC className="text-blue-500 text-5xl" /> },
   { name: "C++", icon: <SiCplusplus className="text-blue-700 text-5xl" /> },
+  { name: "Github", icon: <FaGithub className="text-gray-900 text-5xl" /> },
+  { name: "Firebase", icon: <SiFirebase className="text-yellow-500 text-5xl" /> },
+  { name: "MySQL", icon: <SiMysql className="text-blue-600 text-5xl" /> },
+  { name: "Google Cloud", icon: <SiGooglecloud className="text-blue-500 text-5xl" /> },
 ];
 
 export default function TechStack() {

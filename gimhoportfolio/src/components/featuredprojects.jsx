@@ -62,7 +62,7 @@ export default function FeaturedProjects() {
         </button>
 
         {/* Project Display */}
-        <div className="w-80 h-80 flex-shrink-0 bg-white rounded-lg shadow-lg overflow-hidden relative">
+        <div className="w-100 h-100 flex-shrink-0 bg-white rounded-lg shadow-lg overflow-hidden relative">
           <div
             className={`flex transition-transform duration-500 ease-in-out ${
               isAnimating ? "transform translate-x-[-100%]" : ""
@@ -70,7 +70,7 @@ export default function FeaturedProjects() {
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
             {projects.map((project, index) => (
-              <div key={index} className="w-80 flex-shrink-0">
+              <div key={index} className="w-100 flex-shrink-0">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <Image
                     src={project.image}
