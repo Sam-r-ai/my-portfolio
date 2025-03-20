@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-
+import MovieTicketStub from "@/components/MovieTicketStub";
+import FavoriteBooks from "@/components/bookshelf";
 export default function AboutMe() {
   // Track flipped state for each game
   const [flipped, setFlipped] = useState({});
@@ -85,7 +86,7 @@ export default function AboutMe() {
           about what’s next!
         </p>
       </section>
-
+      <h2 className="text-3xl font-semibold mt-15">More About Me</h2>
       {/* Favorite Artists */}
       <section className="mt-12 text-center">
         <h2 className="text-3xl font-bold">🎵 Favorite Artists</h2>
@@ -144,6 +145,9 @@ export default function AboutMe() {
           ))}
         </div>
       </section>
+      {/* Favorite Movies - Ticket Stubs */}
+    <MovieTicketStub />
+    <FavoriteBooks />
     </div>
   );
 }
