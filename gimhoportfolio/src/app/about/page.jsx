@@ -15,7 +15,7 @@ export default function AboutMe() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-6 pt-20 max-w-4xl mx-auto">
+    <div className="min-h-screen flex flex-col items-center px-6 pt-20 max-w-4xl mx-auto mt-10">
       <h1 className="text-5xl font-bold text-center">About Me</h1>
 
       {/* Introduction */}
@@ -37,9 +37,9 @@ export default function AboutMe() {
       <section className="mt-12">
         <h2 className="text-3xl font-bold">How I Got Into Computer Science</h2>
         <p className="mt-4 text-lg text-gray-700">
-          Ever since I was a kid, I have been interested in <span className="font-semibold">computer science</span> 
-          because of my love for playing <span className="text-red-500 font-semibold">Roblox</span>. I always wanted 
-          to build my own world where I could have access to all the cool weapons for free.
+          Ever since I was a kid, I have been interested in <span className="font-semibold">computer science </span> 
+          because of my love for playing video games like <span className="text-red-500 font-semibold">Roblox</span>. I always wanted 
+          to build my own world and share it with others.
         </p>
         <p className="mt-4 text-lg text-gray-700">
           My favorite games were <span className="italic">Ninjas vs. Samurai Pagoda Battle, Tycoon Games, 
@@ -53,7 +53,7 @@ export default function AboutMe() {
         <p className="mt-4 text-lg text-gray-700">
           I have always been passionate about <span className="font-semibold">content creation</span> and 
           <span className="font-semibold"> digital marketing</span>. Since childhood, I wanted to make 
-          YouTube videos. I believe digital marketing is an essential skill, and I’m actively learning by 
+          YouTube videos. I believe digital marketing is an essential skill, and I’m actively learning by creating videos and 
           using <span className="text-blue-500 font-semibold">Google Ads</span> to optimize outreach.
         </p>
       </section>
@@ -66,6 +66,7 @@ export default function AboutMe() {
         </p>
         <ul className="list-disc list-inside text-lg text-gray-700 mt-4">
           <li>🚪 Door-to-door coupon sales (High School)</li>
+          <li>🔁 Resale </li>
           <li>👞 Shoe shine business outside Westfield San Francisco</li>
           <li>🛍 Membership sales</li>
           <li>☀️ Door-to-door solar sales</li>

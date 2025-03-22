@@ -34,7 +34,7 @@ export default function TechStack() {
   }, []);
 
   return (
-    <section className="py-16 bg-gray-100 text-center">
+    <section className="py-16 bg-gray-100 text-center mt-10">
       <h2 className="text-4xl font-bold mb-8">Tech Stack</h2>
       <div className="w-full overflow-hidden relative">
         <div ref={scrollRef} className="flex space-x-10 overflow-x-scroll no-scrollbar">
